@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #172556;
+}
+
+/* global styles */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1rem;
+  color: #7986ac;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border-radius: 2rem;
+  border: 1px solid #172556;
+  background: #172556;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+button:focus {
+  outline: none;
+}
+
+section {
+  padding: 5rem 0;
+}
+/* Reusable styles */
+
+/* Header styles */
+.nav-container {
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  height: 2vh;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: fixed; */
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.4rem 1.5rem;
+  border: 1px solid #172556;
+  border-radius: 3rem;
+}
+
+
+.nav-link:hover {   
+  background-color: #172556;
+  color: #fff;
+}
+
+#logo {
+  flex: 3;
+  max-width: 30%;
+  position: relative;
+  font-family: "lemonada", fantasy;
+}
+
+#logo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5rem;
+  height: 5rem;
+  background: #172556;
+  border-radius: 50%;
+  transform: translate(-16%, -35%);
+  mix-blend-mode: screen;
+}
+
+.about-container {
+  margin-top: 5em;
+}
+
+.about {
+  width: 100%;
+  height: inherit;
+  /* background: radial-gradient(#4f608f, #162756); */
+  margin: 2rem 0;
+  padding: 0 2rem;
+}
+.about-image {
+  float: left;
+  height: 5em;
+  width: 5em;
+  margin: 2rem;
+  border-radius: 50px;
+  background-color: #7986ac;
+}
+
+.my-name {
+  font-family: "lemonada", fantasy;
+}
+
+.comment {
+  margin: 2rem;
+  overflow: hidden;
+  letter-spacing: 0.1em;
+}
+
+.about-btn {
+  float: right;
+  margin-right: 3rem;
+}
+
+button.hire {
+    background: transparent;
+    border-color: #172556;
+    color: #172556;
+  }
+
+.footer {
+  overflow: hidden;
+  background-color: #7986ac;
+  height: 26rem;
+  margin-bottom: 0;
+}
+
+.footer-top {
+  height: 20rem;
+}
+
+.footer-item {
+  float: left;
+  width: 31%;
+  height: 18rem;
+  margin: 20px 1.15%;
+  background-color: #162756;
+  border-radius: 0.5em;
+}
+
+.footer-bottom {
+  height: 5rem;
+}
+
+/* mobile styles */
+@media only screen and (max-width: 400px) {
+}
+
+/* tablet styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
