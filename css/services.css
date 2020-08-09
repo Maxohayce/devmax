@@ -1,0 +1,56 @@
+.services-container {
+    background: #fff;
+}
+
+.background {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.services {
+    min-height: 90vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
+.services {
+    align-self: center;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #172556;
+    margin: 2rem 2rem;
+    max-height: 80%;
+    min-width: 22rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 2px 5px 12px rgba(94, 95, 95, 0.521);
+}
+.card img {
+    object-fit: cover;
+    height: 60%;
+}
+.title {
+    margin: 1rem 0;
+}
+
+.description {
+    padding: 1.5rem;
+    color: #fff;
+}
